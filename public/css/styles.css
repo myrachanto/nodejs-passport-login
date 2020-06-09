@@ -1,0 +1,95 @@
+body{
+	font-family:palatino linotype;
+	background-image: url("waves.gif");
+	background-repeat: no-repeat;
+    background-position: left;
+    background-attachment: fixed;
+}
+.navbar {
+    margin-bottom: 0;
+    background-color: #4169E1;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 2px;
+	border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #2E8B57 !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #F8F8FF !important;
+    background-color: #20B2AA !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #2E8B57 !important;
+}
+.btn {
+    margin: 15px 0;
+    background-color: #4169E1;
+    color: #2E8B57;
+}
+.btn:hover {
+    border: 1px solid #f4511e;
+    background-color: #20B2AA !important;
+    color: #F8F8FF;
+}
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #4169E1;
+}
+
+.carousel-indicators li {
+    border-color: #4169E1;
+}
+
+.carousel-indicators li.active {
+    background-color: #4169E1;
+}
+.carodiv {
+    background: rgba(46, 139, 87, 0.3) /* seaGreen background with 30% opacity */
+}
+.alterdiv1 {
+    background: rgba(220, 220, 220, 0.5) /* gainsboro background with 30% opacity */
+}
+.alterdiv2 {
+    background: rgba(65, 105, 225, 0.5) /* royalblue background with 30% opacity */
+}
+.imgstyle:hover {
+    box-shadow: 5px 0px 40px rgba(65, 105, 225, 0.5);
+}
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+/*
+input[type=text]:focus {
+    width: 100%;
+}
+</style>
+</head>
+<body>
+
+<p>Animated search input:</p>
+
+<form>
+  <input type="text" name="search" placeholder="Search..">
+</form>*/
+input[type=text]:focus {
+    background-color: lightblue;
+}
